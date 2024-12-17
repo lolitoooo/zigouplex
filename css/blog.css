@@ -1,0 +1,150 @@
+.blog-container, .add-article-container, .view-article-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.articles-list .article-preview {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.article-preview h2 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.article-preview h2 a {
+    text-decoration: none;
+}
+
+.article-preview p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* ACHAT */
+.add-product-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* PAGINATION */
+
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination .btn {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 15px;
+    color: #007BFF;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination .btn:hover {
+    background: #007BFF;
+    color: #fff;
+}
+
+.pagination .btn.active {
+    background: #007BFF;
+    color: #fff;
+    pointer-events: none;
+}

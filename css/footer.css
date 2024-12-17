@@ -1,0 +1,150 @@
+/* Footer général */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Conteneur du footer */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section footer */
+.footer-section {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #0073e6;
+}
+
+/* Section footer */
+.footer-section-link {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer-section-link h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-section-link p,
+.footer-section-link ul {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer-section-link ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-section-link ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section-link ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section-link ul li a:hover {
+    color: #0073e6;
+}
+
+/* Icônes de réseaux sociaux */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    /* background-color: #0073e6; */
+    /* border-radius: 50%; */
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/* Formulaire de newsletter */
+.newsletter form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #005bb5;
+}
+
+/* Bas du footer */
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    font-size: 0.9rem;
+}

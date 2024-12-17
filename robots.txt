@@ -1,0 +1,50 @@
+# Spécifie les sites qui peuvent accéder au contenu
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /search/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /user/
+Disallow: /login/
+Disallow: /signup/
+
+# Autoriser certains bots à explorer le site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Exclure certaines pages de l'indexation mais permettre l'exploration
+User-agent: *
+Disallow: /thank-you/
+Disallow: /confirmation/
+
+# Empêcher l'indexation de fichiers trop spécifiques
+Disallow: /*?*       # Exclut les pages avec paramètres GET
+Disallow: /*.pdf$    # Exclut les fichiers PDF de l'indexation
+
+# Bloquer l'indexation des fichiers JavaScript et CSS (si vous ne voulez pas qu'ils apparaissent dans les résultats de recherche)
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+# Sitemaps
+Sitemap: https://zigouplex.com/sitemap.xml
+
+# Réduire les risques de duplication de contenu
+User-agent: *
+Disallow: /category/
+Disallow: /tag/
+Disallow: /author/
+Disallow: /page/
+
+# Interdire les moteurs de recherche sur les sections non pertinentes du site
+Disallow: /admin/
+Disallow: /internal/
+Disallow: /staging/
+Disallow: /dev/
+Disallow: /test/
